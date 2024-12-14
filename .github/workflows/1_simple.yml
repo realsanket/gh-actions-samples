@@ -13,6 +13,7 @@ jobs:
                 echo "This is the second line"
     job2:
         name: Job 2 tesst
+        needs: build
         runs-on: ubuntu-latest
         steps:
             - name: hello
