@@ -1,5 +1,5 @@
 name: simple_workflow
-on: workflow_dispatch
+on: [push]
 jobs:
     build:
         name: Build and Test
